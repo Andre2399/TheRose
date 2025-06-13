@@ -18,12 +18,16 @@ body{
     top: 4%;
 }
 #rosa{
-    width: 80px;
+    height: 120px;
     position: fixed;
     top: 2%;
     left: 1%;
 }
 #parrafos{
+    /* display: block;
+    flex-flow: column wrap;
+    align-items: center; */
+    
     text-align: center;
     display: inline-block;
     position: absolute;
@@ -112,3 +116,9 @@ text-align: left;
     display: block;
     text-align: left;
 }
+/* header{
+    min-width: 100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
