@@ -24,10 +24,10 @@
   </head>
   <body>
     <div id="panel_hamburguesa">
-      <a class="rosarium" href="https://web.therosarium.app/the-rose/sign_up"
+      <a target="_blank" class="rosarium" href="https://web.therosarium.app/the-rose/sign_up"
         >The Rosarium</a
       >
-      <a class="enlace" href="#">Discos previos</a>
+      <a target="_blank" class="enlace" href="#">Discos previos</a>
     </div>
     <header>
       <img
@@ -42,10 +42,30 @@
       <div id="tapado"></div>
       <nav>
         <a href="#panel_hamburguesa" id="abrir">
-          <img src="./images/menu (1).png" alt="abrir_menu" height="70px" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="90px"
+            viewBox="0 -960 960 960"
+            width="80px"
+            fill="#EFEFEF"
+          >
+            <path
+              d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+            />
+          </svg>
         </a>
         <a href="#" id="cerrar">
-          <img src="./images/menu_cerrar.png" alt="cierre_menu" height="50px" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="80px"
+            viewBox="0 -960 960 960"
+            width="80px"
+            fill="#EFEFEF"
+          >
+            <path
+              d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+            />
+          </svg>
         </a>
       </nav>
     </header>
@@ -200,6 +220,12 @@
             <img src="./images/banda2.jpg" alt="imagen_banda" height="500px" />
             <figcaption>Concepto Álbum Dual</figcaption>
           </figure>
+        </div>
+      </section>
+      <section>
+        <div id="carrusel">
+          <img class="fotos" src="./images/banda3.png" alt="imagen_banda" />
+          <img class="fotos" src="./images/banda4.webp" alt="imagen_banda" />
         </div>
       </section>
     </main>
