@@ -57,12 +57,21 @@ a{
 #panel_hamburguesa:target ~ header nav #cerrar{
     display: inline-block;
 }
-#parrafos{
+#parrafos1{
     text-align: center;
     display: inline-block;
     position: absolute;
     right: 25%;
     top: 30%;
+}
+#parrafos2{
+width: 500px;   
+text-align: center;
+display: inline-block;
+position: absolute;
+top: 110%;
+right: 13%;
+
 }
 .portadaAlbum{
     width: 350px;
